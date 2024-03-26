@@ -1,0 +1,33 @@
+{
+  "project_info": {
+    "project_number": "google-site-verification: google1a51df7d44f61e07.html",
+    "project_url": "https://www.rathanaphon.website.com",
+    "project_id": "project.chmre",
+     "storage_bucket": "project.chmre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "web_app_id": "1:google-site-verification: google1a51df7d44f61e07.html",
+        "wed_client_info": {
+          "package_name": "www.rathanaphon.website.com/"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+             "oauthDomain": "www.rathanaphon.website.com",
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+

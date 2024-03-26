@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+     <meta name="content Describe"="Rathana.Online.Store.Bussing.as.royal.patner">
+     <meta name="author" content="Rathana.online.Store">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css"> 
+       <title> Chart bot </title>
+     <link rel="icon" href="img/rathanaphon.jpg">
+     <link rel="stylesheet" href="css/style.css">
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div>
+    <p class="usericon" ><img src="img/...jpg"</p>
+    <p class="username">Chart Message<br><small><span id="spanonline" >Online</span></small></p>
+  </div>
+</div>
+
+<div id="messagesdivid" class="messagesdiv" >
+<p class="starttext" align="center">Hello, my name is Chats bot I am an example of a chatbot.</p>
+</div>
+
+<div class="bottom" align="center" >
+  <input type="text" class="inputtext" placeholder="Type your message..." id="message_box" >
+  <button class="send" onclick="send_text()">Send</button>
+</div>
+
+<script>
+
+//Answer array
+var answerlist = [ "Hello", "Okay", "I'm sorry. I don't understand.", "How are you?", "Thanks", "Good morning", "Good night", "Sorry", "Yes", "No", "I'm fine. How are you?" ]
+
+function send_text()
+{
+  var x = document.getElementById("message_box").value; /* gets the textbox VALUE */
+  if(x!="")
+  {
+    var elem = document.createElement('div'); /* creates new div element */
+    var text = document.createTextNode(x); /* creates the text to put into the element */
+    elem.appendChild(text); /* adds the text to the element */
+    elem.className = 'receiver-container'; /* adds the class to the element */
+    document.getElementById("messagesdivid").appendChild(elem); /* adds element to the body */
+    //Clear message box
+    document.getElementById('message_box').value = "";
+    //Scroll
+    document.getElementById("messagesdivid").scrollTo(0,document.getElementById("messagesdivid").scrollHeight)
+    document.getElementById("spanonline").innerHTML = "Typing...";
+    setTimeout(answer, 2000)//Answer time (1000 = 1 seconds)
+  }
+  
+function answer()
+{
+  randomanswer = answerlist[Math.round(Math.random()*10)]
+  var elem = document.createElement('div'); /* creates new div element */
+  var text = document.createTextNode(randomanswer); /* creates the text to put into the element */
+  elem.appendChild(text); /* adds the text to the element */
+  elem.className = 'receiver-container2'; /* adds the class to the element */
+  document.getElementById("messagesdivid").appendChild(elem); /* adds element to the body */
+  document.getElementById("messagesdivid").scrollTo(0,document.getElementById("messagesdivid").scrollHeight)
+  document.getElementById("spanonline").innerHTML = "Online";
+  }
+}
+
+</script>
+
+</body>
+</html>
+
+       
