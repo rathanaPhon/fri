@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-km">
-<head>
-  <html xmlns="http://www.w3.org/1999/xhtml" http://www.sitemaps.org/schemas/sitemap/0.9</html>
+ <html xmlns="http://www.w3.org/1999/xhtml" http://www.sitemaps.org/schemas/sitemap/0.9</html>
   <meta name="robots" content="noindex" />
   <?xml version="1.0" encoding="UTF-8"?>
   <?xml-stylesheet type="text/xsl" href="https://rathanaphon.github.io/wedpage/4418385/sitemap.xsl"?>
@@ -9,28 +6,26 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
 </urlset>
-</body>
-</html>
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://rathanaphon.github.io/wedpage</loc>
+      <loc>https://www.rathanaphon.website.com</loc>
       <lastmod>2024-03-07T17:47:20+00:00</lastmod>
       <changefreq>monthly</changefreq>
      <changefreq>daily</changefreq>
      <priority>1.0000</priority>
    </url>
    <url>
-      <loc>https://rathanaphon.github.io/wedpage</catalog?item=12&amp;desc=vacation_hawaii</loc>
+      <loc>https://www.rathanaphon.website.com</catalog?item=12&amp;desc=vacation_hawaii</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://rathanaphon.github.io/wedpage/</catalog?item=73&amp;desc=vacation_new_zealand</loc>
+      <loc>https://www.rathanaphon.website.com/</catalog?item=73&amp;desc=vacation_new_zealand</loc>
       <lastmod>2024-03-07T17:47:20+00:00</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://www.example.com/catalog?item=74&amp;desc=vacation_newfoundland</loc>
+      <loc>http://www.rathanaphon.website.com/catalog?item=74&amp;desc=vacation_newfoundland</loc>
       <lastmod>2024-03-07T17:47:20+00:00</lastmod>
       <priority>1.0000</priority>
    </url>
